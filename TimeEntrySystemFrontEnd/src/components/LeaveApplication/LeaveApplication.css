@@ -1,0 +1,89 @@
+/* LeaveApplication.css */
+
+.leave-application-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  background-color: #f4f4f4;
+}
+
+.leave-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 400px;
+}
+
+.leave-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.leave-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-label {
+  margin-bottom: 15px;
+  color: #555;
+  font-weight: bold;
+}
+
+.input-field,
+.reason-field {
+  width: 100%;
+  text-align: start;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.input-field:focus,
+.reason-field:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.leaveApplication {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.dropdown {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%; /* Set the width as needed */
+}
+
+.dropdown option {
+  background-color: #fff;
+  color: #333;
+}
+
+.dropdown:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
